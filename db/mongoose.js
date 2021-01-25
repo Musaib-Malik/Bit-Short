@@ -4,7 +4,7 @@ require("dotenv").config();
 
 // Connect to database
 mongoose.connect(
-  process.env.DB,
+  process.env.DB_URI,
   {
     useCreateIndex: true,
     useFindAndModify: true,
